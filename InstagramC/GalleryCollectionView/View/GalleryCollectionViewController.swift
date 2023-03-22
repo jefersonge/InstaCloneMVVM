@@ -19,6 +19,7 @@ class GalleryCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.delegate = self
+        title = (user["nome"] as? String ?? "") + " Postagens"
     }
     //ao aparecer tela galeria esconder tabbar
     override func viewWillAppear(_ animated: Bool) {
