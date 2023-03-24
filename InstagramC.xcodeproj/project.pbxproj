@@ -96,17 +96,17 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		4183AEF4294C1EDD00050442 /* Usuarios */ = {
+		4183AEF4294C1EDD00050442 /* Users */ = {
 			isa = PBXGroup;
 			children = (
 				418D527429C9421D00A139DD /* View */,
 				418D527329C9419900A139DD /* ViewModel */,
 				418D527229C9419600A139DD /* Service */,
 			);
-			path = Usuarios;
+			path = Users;
 			sourceTree = "<group>";
 		};
-		4183AEF5294C1EE400050442 /* Postagem */ = {
+		4183AEF5294C1EE400050442 /* Post */ = {
 			isa = PBXGroup;
 			children = (
 				418D527D29C944EE00A139DD /* Model */,
@@ -114,7 +114,7 @@
 				418D526D29C9418700A139DD /* ViewModel */,
 				418D526C29C9418500A139DD /* Service */,
 			);
-			path = Postagem;
+			path = Post;
 			sourceTree = "<group>";
 		};
 		4183AEF6294C1F0000050442 /* GalleryCollectionView */ = {
@@ -325,14 +325,14 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		4197CB0A294BE9B1000D94CB /* Cadastro */ = {
+		4197CB0A294BE9B1000D94CB /* Register */ = {
 			isa = PBXGroup;
 			children = (
 				418D527A29C9423800A139DD /* View */,
 				418D527929C9423300A139DD /* ViewModel */,
 				418D527829C9423100A139DD /* Service */,
 			);
-			path = Cadastro;
+			path = Register;
 			sourceTree = "<group>";
 		};
 		4197CB0B294BE9F8000D94CB /* Login */ = {
@@ -367,11 +367,11 @@
 			isa = PBXGroup;
 			children = (
 				4183AEF6294C1F0000050442 /* GalleryCollectionView */,
-				4183AEF5294C1EE400050442 /* Postagem */,
+				4183AEF5294C1EE400050442 /* Post */,
 				4183AEEF294C1A6A00050442 /* Home */,
-				4183AEF4294C1EDD00050442 /* Usuarios */,
+				4183AEF4294C1EDD00050442 /* Users */,
 				4197CB0B294BE9F8000D94CB /* Login */,
-				4197CB0A294BE9B1000D94CB /* Cadastro */,
+				4197CB0A294BE9B1000D94CB /* Register */,
 				418D527F29C9455E00A139DD /* AppDelegateAndSceneDelegate */,
 				418D528029C9458000A139DD /* Storyboard */,
 				41FB7DCC29400992006274DF /* Assets.xcassets */,
